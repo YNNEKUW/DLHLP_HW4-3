@@ -10,7 +10,7 @@ To generate the predition files for Kaggle:
 ```
 bash predict.sh 
 ```
-But in predict.sh, you need to specify the model you want to use. For instance,
+Note that in predict.sh you need to specify the model you want to use. For instance,
 ```
 python ./examples/run_squad.py --model_name_or_path ./output/MY_MODEL --output_dir ./output/MY_MODEL
 ```
@@ -30,4 +30,4 @@ If you can install apex successfully, you can use
 ```
 python ./examples/run_squad.py --fp16
 ```
-when training to acclerate and reduce the memory usage, yet this is optional.
+when training so as to acclerate and reduce the memory usage.
