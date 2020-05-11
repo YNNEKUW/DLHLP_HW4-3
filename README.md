@@ -1,5 +1,7 @@
 # DLHLP_HW4-3
 
+Baic part
+-
 To train a model:
 ```
 bash train.sh
@@ -22,3 +24,10 @@ e.g.
 ```
 python process_ans.py ./output/MY_MODEL/predictions_.json wulabaha.csv
 ```
+Extra part
+-
+If you can install apex successfully, you can use
+```
+python ./examples/run_squad.py --fp16
+```
+when training to acclerate and reduce the memory usage, yet this is optional.
