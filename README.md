@@ -24,7 +24,7 @@ e.g.
 ```
 python process_ans.py ./output/MY_MODEL/predictions_.json wulabaha.csv
 ```
-Extra part
+Extra part (Optional)
 -
 If you can install apex successfully, you can use
 ```
