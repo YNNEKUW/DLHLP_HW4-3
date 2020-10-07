@@ -1,5 +1,5 @@
 numpy
-torch==1.2.0
+torch==1.6.0
 tensorboardX==2.0
 tqdm
 boto3
